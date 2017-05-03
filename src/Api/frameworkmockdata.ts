@@ -8,7 +8,7 @@ let	FrameWorkMockData : LocalizedValue[] =
 		},
         {
             cultureName : "en-us",
-            displayValue: "ISO 27001-2013"
+            displayValue: "ISO 27001-2014"
         }
 	];
 
