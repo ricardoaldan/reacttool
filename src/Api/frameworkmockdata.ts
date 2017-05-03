@@ -1,6 +1,6 @@
 import {LocalizedValue} from '../models/localizedvalue';
 
-var	FrameWorkMockData : LocalizedValue[] =
+let	FrameWorkMockData : LocalizedValue[] =
 	[
 		{
             cultureName : "en-us",

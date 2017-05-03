@@ -1,6 +1,7 @@
 import {LocalizedValue} from '../models/localizedvalue';
 import FrameWorkMockData from './frameworkmockdata';
-
+import {FrameworkDetail} from '../Models/FrameworkDetail';
+import FrameworkDetailData from '../Api/frameworkDetailMockData';
 
 class FrameworkAPI {
 
@@ -9,9 +10,13 @@ class FrameworkAPI {
   };
 
   // Just return a copy of the mock data
-getAllFramework() : Array<LocalizedValue> {
+  getAllFramework() : Array<LocalizedValue> {
 		return this._clone(FrameWorkMockData);
 	}
+
+  getFramework() : FrameworkDetail {
+    return this._clone(null);
+  }
 }
 
 export const frameworkAPI = new FrameworkAPI();
