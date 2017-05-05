@@ -4,7 +4,7 @@ import {Person} from '../Models/Person';
 let FrameworkDetailMockData : FrameworkDetail = {
         Framework :'3.5',        
         Year: 2017,
-        Status: 'In Progress',
+        Status: { cultureName:'en-US', displayValue:'In Progress'},
         Percentage: 80,
         Assignees:[{
             Name:"John D.", 
